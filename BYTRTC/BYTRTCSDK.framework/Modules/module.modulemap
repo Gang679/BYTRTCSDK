@@ -1,0 +1,6 @@
+framework module BYTRTCSDK {
+  umbrella header "BYTRTCSDK.h"
+  export *
+
+  module * { export * }
+}
