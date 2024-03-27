@@ -25,8 +25,6 @@ Pod::Spec.new do |spec|
     
     spec.source_files  = "BYTRTC"
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  
-  s.source_files  = 'BYTRTC/**/*.{h,m}'
 
   # spec.exclude_files = "Classes/Exclude"
 
