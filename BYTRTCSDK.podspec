@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "BYTRTCSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "视频模块SDK"
 
   spec.description  = <<-DESC
@@ -23,7 +23,11 @@ Pod::Spec.new do |spec|
     # 这个是SDK需要的资源文件，这样写到时候会生成一个BYTRTCSSDKBundle.bundel文件放到.app的包里面。
     spec.resources     = 'BYTRTC/BYTRTCSSDKBundle.bundle'
     
+    spec.source_files  = "BYTRTC"
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  
+  s.source_files  = 'BYTRTC/**/*.{h,m}'
+
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
